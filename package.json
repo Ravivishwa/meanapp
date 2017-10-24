@@ -1,0 +1,29 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "mean stack application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravivishwa/meanapp.git"
+  },
+  "keywords": [
+    "Mean",
+    "stack"
+  ],
+  "author": "Ravi Vishwakarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravivishwa/meanapp/issues"
+  },
+  "homepage": "https://github.com/Ravivishwa/meanapp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.9.0"
+  }
+}
