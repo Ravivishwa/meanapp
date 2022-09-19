@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 mongoose.connect('mongodb://localhost:27017/tutorial',function(err){
 	if(err){
 		console.log('not connected' + err)
-		//test commit in master
+		//test commit in master noew
 	}
 	else{
 		console.log('connected');
